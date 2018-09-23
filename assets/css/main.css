@@ -1,4 +1,5 @@
 @import url(font-awesome.min.css);
+@import url(font-awesome-5.3.1.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
 /*
@@ -1936,7 +1937,7 @@ input, select, textarea {
 			input[type="radio"] + label:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -2032,7 +2033,7 @@ input, select, textarea {
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -2279,7 +2280,7 @@ input, select, textarea {
 			ul.contact li:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -3049,7 +3050,7 @@ input, select, textarea {
 		#search form:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
@@ -3157,7 +3158,7 @@ input, select, textarea {
 			#sidebar .toggle:before {
 				-moz-osx-font-smoothing: grayscale;
 				-webkit-font-smoothing: antialiased;
-				font-family: FontAwesome;
+				font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 				font-style: normal;
 				font-weight: normal;
 				text-transform: none !important;
@@ -3508,7 +3509,7 @@ input, select, textarea {
 				#menu ul a.opener:before, #menu ul span.opener:before {
 					-moz-osx-font-smoothing: grayscale;
 					-webkit-font-smoothing: antialiased;
-					font-family: FontAwesome;
+					font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 					font-style: normal;
 					font-weight: normal;
 					text-transform: none !important;
