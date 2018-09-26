@@ -15,6 +15,7 @@
 				@include vendor('transform', 'scaleX(-1)');
 				color: _palette(fg);
 				content: '\f002';
+				font-weight: 900;
 				cursor: default;
 				display: block;
 				font-size: 1.5em;
@@ -102,6 +103,7 @@
 
 			&:before {
 				content: '\f0c9';
+				font-weight: 900;
 				font-size: 2rem;
 				height: inherit;
 				left: 0;
