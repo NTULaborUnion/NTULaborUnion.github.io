@@ -1,4 +1,3 @@
-@import url(font-awesome.min.css);
 @import url(font-awesome-5.3.1.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700");
 
@@ -1788,6 +1787,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	section div.fb-page {
+		height: 500px;
+	}
+
 	header p {
 		font-family: "Roboto Slab", serif;
 		font-size: 1em;
@@ -1939,7 +1942,6 @@ input, select, textarea {
 				-webkit-font-smoothing: antialiased;
 				font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 				font-style: normal;
-				font-weight: normal;
 				text-transform: none !important;
 			}
 
@@ -2035,7 +2037,6 @@ input, select, textarea {
 			-webkit-font-smoothing: antialiased;
 			font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 			font-style: normal;
-			font-weight: normal;
 			text-transform: none !important;
 		}
 
@@ -2282,7 +2283,6 @@ input, select, textarea {
 				-webkit-font-smoothing: antialiased;
 				font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 				font-style: normal;
-				font-weight: normal;
 				text-transform: none !important;
 			}
 
@@ -3052,7 +3052,6 @@ input, select, textarea {
 			-webkit-font-smoothing: antialiased;
 			font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 			font-style: normal;
-			font-weight: normal;
 			text-transform: none !important;
 		}
 
@@ -3063,6 +3062,7 @@ input, select, textarea {
 			transform: scaleX(-1);
 			color: #7f888f;
 			content: '\f002';
+			font-weight: 900;
 			cursor: default;
 			display: block;
 			font-size: 1.5em;
@@ -3160,12 +3160,12 @@ input, select, textarea {
 				-webkit-font-smoothing: antialiased;
 				font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 				font-style: normal;
-				font-weight: normal;
 				text-transform: none !important;
 			}
 
 			#sidebar .toggle:before {
 				content: '\f0c9';
+				font-weight: 900;
 				font-size: 2rem;
 				height: inherit;
 				left: 0;
@@ -3511,7 +3511,6 @@ input, select, textarea {
 					-webkit-font-smoothing: antialiased;
 					font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "FontAwesome";
 					font-style: normal;
-					font-weight: normal;
 					text-transform: none !important;
 				}
 
@@ -3522,6 +3521,7 @@ input, select, textarea {
 					transition: color 0.2s ease-in-out, transform 0.2s ease-in-out;
 					color: #9fa3a6;
 					content: '\f078';
+					font-weight: 900;
 					position: absolute;
 					right: 0;
 				}
