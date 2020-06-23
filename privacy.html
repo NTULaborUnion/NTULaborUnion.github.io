@@ -3,6 +3,7 @@
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126694753-1"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
@@ -185,40 +186,16 @@
                                         <h2>認識工會 (・ω・)ノ</h2>
                                     </header>
                                     <ul>
-                                        <li><a href="index.html">首頁</a></li>
-                                        <li><a href="news.html">最新消息</a></li>
-                                        <li><a href="video.html">抽籤影片</a></li>
-                                        <li>
-                                            <span class="opener">現任幹部</span>
-                                            <ul>
-                                                <li><a href="council.html">理事會成員</a></li>
-                                                <li><a href="supervisor.html">監事會成員</a></li>
-                                                <li><a href="secretariat.html">秘書處成員</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="faq.html">常見問題</a></li>
-                                        <li><a href="join.html">加入會員</a></li>
-                                        <li><a href="donate.html">捐款支持</a></li>
-                                        <li>
-                                            <span class="opener">相關辦法</span>
-                                            <ul>
-                                                <li><a href="article.html">章程</a></li>
-                                                <li><a href="membership.html">會費收取及代扣辦法</a></li>
-                                                <li><a href="agree.html">審查事業單位請求工會同意事項辦法</a></li>
-                                                <li><a href="harassment.html">性騷擾防治申訴及調查處理要點</a></li>
-                                                <!--<li><a href="law03.html">會員大會議事規則</a></li> -->
-                                            </ul>
-                                        </li>
-                                        <li>
-                                            <span class="opener">會議紀錄</span>
-                                            <ul>
-                                                <li><a href="https://drive.google.com/open?id=1bCQq-LpnDHCYSXe4dCu58YYoHli5W2_S">理事會</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="report.html">通報專區</a></li>
-										<li><a href="/election/">選舉專區</a></li>
-                                        <li><a href="privacy.html">隱私條款</a></li>
-                                    </ul>
+										<li v-for="item in menuItems">
+											<a v-if="item.url!=''" :href="item.url">{{item.text}}</a>
+											<span v-else class="opener">{{item.text}}</span>
+											<ul v-if="item.url==''">
+												<li v-for="sub in item.children">
+													<a :href="sub.url">{{sub.text}}</a>
+												</li>
+											</ui>
+										</li>
+									</ul>
                                 </nav>
 
                             <!-- Section -->
@@ -251,6 +228,7 @@
             </div>
 
         <!-- Scripts -->
+			<script src="assets/js/menu.js"></script>
             <script src="assets/js/jquery.min.js"></script>
             <script src="assets/js/browser.min.js"></script>
             <script src="assets/js/breakpoints.min.js"></script>
