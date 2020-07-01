@@ -22,6 +22,7 @@ var menuItems = [
     ]},
     {text:"通報專區",url:"/report.html",children:[]},
     {text:"選舉專區",url:"/election/index.html",children:[]},
+    {text:"電子報",url:"https://epaper.ntu.edu.tw/?p=view&listid=305"},
     {text:"隱私條款",url:"/privacy.html",children:[]},
 ]
 new Vue({
