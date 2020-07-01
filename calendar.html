@@ -1,0 +1,172 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-126694753-1"></script>
+		<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-126694753-1');
+        </script>
+
+        <title>國立臺灣大學工會｜首頁</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta property="og:url"           content="https://ntu.lu/index.html" />
+  		<meta property="og:type"          content="website" />
+ 		<meta property="og:title"         content="國立臺灣大學工會｜首頁" />
+		<meta property="og:description"   content="加入臺大工會、懇請小額捐款，我們一起爭取作為學術產業基層勞動力應得的尊嚴與權益。" />
+		<meta property="og:image"         content="https://ntu.lu/images/ntulu-profile.jpg" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="shortcut icon" type="image" href="images/favicon.ico"/>
+	</head>
+	<body class="is-preload">
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v3.1&appId=748496555495227&autoLogAppEvents=1';
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>NTUNION </strong>國立臺灣大學工會</a>
+									<ul class="icons">
+										<li><a href="https://fb.me/ntu.laborunion" class="icon fab fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
+										<li><a href="https://instagram.com/ntu.labor.union" class="icon fab fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+										<li><a href="https://line.me/R/ti/p/%40ntulu" class="icon fab fa-line" target="_blank"><span class="label">LINE</span></a></li>
+										<li><a href="https://github.com/NTULaborUnion" class="icon fab fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+										<li><a href="mailto:ntu.labor.union@gmail.com" class="icon far fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Banner -->
+								<section id="banner">
+									<div class="content">
+                                        <h1>工會行事曆</h1>
+									</div>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<iframe src="https://calendar.google.com/calendar/embed?src=hoo5sqbqspidbub5shb4rvjo6s%40group.calendar.google.com&ctz=Asia%2FTaipei" style="border: 0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>認識工會 (・ω・)ノ</h2>
+									</header>
+									<ul>
+										<li v-for="item in menuItems">
+											<a v-if="item.url!=''" :href="item.url">{{item.text}}</a>
+											<span v-else class="opener">{{item.text}}</span>
+											<ul v-if="item.url==''">
+												<li v-for="sub in item.children">
+													<a :href="sub.url">{{sub.text}}</a>
+												</li>
+											</ui>
+										</li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+                                    <header class="major">
+                                        <h2>聯絡我們 ( ´ ▽ ` )ﾉ</h2>
+                                    </header>
+                                    <ul class="contact">
+                                        <li class="icon far fa-envelope"><a href="mailto:ntu.labor.union@gmail.com" target="_blank">臺大工會 Email</a></li>
+                                        <li class="icon fab fa-facebook" ><a href="https://fb.me/ntu.laborunion" target="_blank">Facebook 粉絲專頁</a></li>
+                                        <li class="icon fab fa-line"><a href="https://line.me/R/ti/p/%40ntulu" target="_blank"><span class="label">LINE@ 官方帳號</span></a></li>
+                                        <li class="icon fas fa-phone">+886 919-315-161（秘書長）</li>
+                                        <li class="icon fas fa-home">10099 臺北公館郵局第 148 號信箱</li>
+                                    </ul>
+                                </section>
+
+							<!-- Section -->
+								<section>
+									<div class="fb-page" data-href="https://www.facebook.com/ntu.laborunion/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ntu.laborunion/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ntu.laborunion/">國立臺灣大學工會</a></blockquote></div>
+								</section>
+
+
+							<!-- Section -->
+								<section>
+									<div class="insta-page">
+										<script type="text/javascript" src="/assets/js/jquery-1.6.1.min.js"></script>
+							    		<script type="text/javascript" src="/assets/js/jquery-embedagram.pack.js"></script>
+							    		<script type="text/javascript">
+							    			$(document).ready(function() { $('#slideshow').embedagram({
+							                		instagram_id: ntu.labor.union
+							            		});
+						        			});
+						    			</script>
+									</div>
+								</section>
+
+								<!-- LightWidget WIDGET -->
+								<!--<script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/generated.html" scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width:100%;border:0;overflow:hidden;"></iframe>-->
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; NTUnion 2018. <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0.</a> Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/menu.js"></script>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+		<!-- Load Facebook SDK for JavaScript -->
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = 'https://connect.facebook.net/zh_TW/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+
+		<!-- Your customer chat code -->
+			<div class="fb-customerchat"
+			  attribution=setup_tool
+			  page_id="380574991956867"
+			  theme_color="#2F5E80"
+			  logged_in_greeting="嗨！可以透過這裡聯繫我們哦 (・ω・)ノ"
+			  logged_out_greeting="嗨！可以透過這裡聯繫我們哦 (・ω・)ノ">
+			</div>
+
+	</body>
+</html>

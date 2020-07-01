@@ -1,6 +1,7 @@
 var menuItems = [
     {text:"首頁",url:"/",children:[]},
     {text:"最新消息",url:"/news.html",children:[]},
+    {text:"工會行事曆",url:"/calendar.html",children:[]},
     {text:"抽籤影片",url:"/video.html",children:[]},
     {text:"現任幹部",url:"",children:[
         {text:"理事會成員",url:"/council.html",children:[]},
